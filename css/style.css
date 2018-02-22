@@ -10,7 +10,8 @@ body {
   background-color: #f9f8f6; }
 
 header {
-  background: #f9f8f6; }
+  background: #f9f8f6;
+  margin-bottom: 15px; }
   header #header_in {
     padding-top: 10px;
     padding-bottom: 4px; }
@@ -367,6 +368,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
+  #thumbnails ul li {
+    display: inline-block; }
 
 .thumbnailimg {
   width: calc( ( 100% - 10px) / 2);
@@ -375,7 +378,8 @@ footer {
   margin: 0 0 1px 5px; }
   .thumbnailimg img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    cursor: pointer; }
 
 .sizecolortitle {
   margin: 10px; }
@@ -706,15 +710,17 @@ footer {
     border: solid 3px #ffffff; }
 
   .aboutbox {
-    display: flex; }
+    display: flex;
+    background-color: #ffffff; }
 
-  .about2 {
+  .about2 img {
     width: 100%; }
 
   .shopinfobox {
-    display: flex; }
+    display: flex;
+    background-color: #ffffff; }
 
-  .shopinfo2 {
+  .shopinfo2 img {
     width: 100%; }
 
   .more1 {
@@ -814,7 +820,7 @@ footer {
           margin: 10px 0 0 0; }
 
   .newitemsimg1 {
-    margin: 5px; }
+    margin: 15px; }
     .newitemsimg1 img {
       max-width: 100%; }
 
@@ -822,7 +828,7 @@ footer {
     display: none; }
 
   .popularitemsimg1 {
-    margin: 5px; }
+    margin: 15px; }
     .popularitemsimg1 img {
       max-width: 100%; }
 
@@ -830,7 +836,7 @@ footer {
     display: none; }
 
   .boxsimg1 {
-    margin: 5px; }
+    margin: 15px; }
     .boxsimg1 img {
       max-width: 100%; }
 
@@ -838,7 +844,7 @@ footer {
     display: none; }
 
   .newaitem2img1 {
-    margin: 5px; }
+    margin: 15px; }
     .newaitem2img1 img {
       max-width: 100%; }
 

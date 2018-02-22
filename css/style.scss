@@ -33,6 +33,7 @@ body {
 header {
 
   background: $basecolor;
+  margin-bottom: 15px;
 
   #header_in {
     padding-top: 10px;
@@ -503,6 +504,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  li{
+    display: inline-block;
+  }
 }
 
 .thumbnailimg {
@@ -514,6 +518,7 @@ footer {
   img{
     max-width: 100%;
     height: auto;
+    cursor: pointer;
   }
 }
 
@@ -933,17 +938,23 @@ input.textBox {
 
 .aboutbox{
   display: flex;
+  background-color: #ffffff;
 }
 
 .about2 {
+  img{
   width: 100%;
+  }
 }
 
 .shopinfobox{
   display: flex;
+  background-color: #ffffff;
 }
 .shopinfo2{
+  img{
   width: 100%;
+  }
 }
 
 
@@ -1084,7 +1095,7 @@ input.textBox {
   }
 
 .newitemsimg1{
-  margin: 5px;
+  margin: 15px;
   img{
     max-width: 100%;
   }
@@ -1097,7 +1108,7 @@ input.textBox {
 }
 
 .popularitemsimg1{
-  margin: 5px;
+  margin: 15px;
   img{
     max-width: 100%;
   }
@@ -1109,7 +1120,7 @@ input.textBox {
 }
 
 .boxsimg1{
-   margin: 5px;
+   margin: 15px;
   img{
     max-width: 100%;
   }
@@ -1121,7 +1132,7 @@ input.textBox {
 }
 
 .newaitem2img1{
-   margin: 5px;
+   margin: 15px;
   img{
     max-width: 100%;
   }
